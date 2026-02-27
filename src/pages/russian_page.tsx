@@ -1,12 +1,13 @@
 const RussianPage = () => {
     return (
-        <iframe
-            src="/russian_kitchen"
-            title="Russische Küche"
-            width="100%"
-            height="100%"
-            style={{ border: "none"}}
-        />
+            <iframe
+                src="src/pages/public/russian_kitchen/index.html"
+                title="Russische Küche"
+                width="100%"
+                height="200px"
+                style={{ border: "none"}}
+            >
+            </iframe>
     )
 }
 
