@@ -1,17 +1,27 @@
-/*import { useState } from 'react';*/
+/* Pages Import */
 import RussianPage from './pages/russian_page'
 import HomePage from './pages/home_page'
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import PageNotFound from './pages/not_found'
+
+
+/* Components import */
+import HeaderComponent from './conponents/header_component'
+
+
+/* System imports */
+import { Routes, Route } from "react-router-dom"
 import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route  path='/' element={<HomePage />}/>
-        <Route  path='/russian' element={<RussianPage />}/>
-      </Routes>
-    </BrowserRouter>
+    <div className='layout'>
+      <HeaderComponent />
+        <Routes>
+          <Route  path='/' element={<HomePage />}/>
+          <Route  path='/russian_kitchen' element={<RussianPage />}/>
+          <Route  path='*' element={<PageNotFound />}/>
+        </Routes>
+    </div>
   );
 }
 

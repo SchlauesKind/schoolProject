@@ -1,12 +1,16 @@
+import { Link } from "react-router-dom"
+
 const RussianPage = () => {
     return (
-        <iframe
-            src="/russian_kitchen"
-            title="Russische Küche"
-            width="100%"
-            height="100%"
-            style={{ border: "none"}}
-        />
+            <iframe
+                src="src/pages/public/russian_kitchen/index.html"
+                title="Russische Küche"
+                width="100%"
+                height="auto"
+                style={{ border: "none"}}
+            >
+            <Link to="/">Home Page</Link>
+            </iframe>
     )
 }
 

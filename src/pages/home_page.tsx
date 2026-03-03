@@ -2,11 +2,18 @@ import { Link } from "react-router-dom"
 
 function HomePage() {
   return (
-    <body>
-        <h1>Title</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam debitis nesciunt illo cumque provident quaerat omnis ut adipisci, ipsum aspernatur minus incidunt molestiae quae repellat quia vero repellendus neque nihil?</p>
-        <Link to="/russian_kitchen"> Ruswsiche Küche</Link>
-    </body>
+    <div style={{ padding: "10px", background: "yellow" }}>
+      <h1>Home Page</h1>
+      <h2>Hier sind links zu Ländern deren Küchen wir haben:</h2>
+      <ul>
+        <li>
+          <Link to="/russian_kitchen">Russische Küche</Link>
+        </li>
+        <li>
+          <Link to="/russian_kitchen">Russische Küche</Link>
+        </li>
+      </ul>
+    </div>
   );
 }
 
