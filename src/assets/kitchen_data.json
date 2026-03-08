@@ -1,31 +1,41 @@
 [
   {
     "id": 1,
-    "filename": "ru.svg",
+    "path": "russian",
+    "flag-file-name": "ru.svg",
+    "component": "RussianPage",
     "title": "Russische Küche",
     "description": "Die russische Küche ist bekannt für ihre herzhafte Gerichte"
   },
   {
     "id": 2,
-    "filename": "it.svg",
+    "path": "italian",
+    "flag-file-name": "it.svg",
+    "component": "ItalianPage",
     "title": "Italienische Küche",
     "description": "Die italienische Küche ist bekannt für ihre vielseitigen Gerichte"
   },
   {
     "id": 3,
-    "filename": "cn.svg",
+    "path": "chinese",
+    "flag-file-name": "cn.svg",
+    "component": "ChinesePage",
     "title": "Chinesische Küche",
     "description": "Die chinesische Küche ist bekannt für ihre vielseitigen Gerichte"
   },
   {
     "id": 4,
-    "filename": "mx.svg",
+    "path": "mexican",
+    "flag-file-name": "mx.svg",
+    "component": "MexicanPage",
     "title": "Mexikanische Küche",
     "description": "Die mexikanische Küche ist bekannt für ihre pikanten Gerichte"
   },
   {
     "id": 5,
-    "filename": "jp.svg",
+    "path": "japanese",
+    "flag-file-name": "jp.svg",
+    "component": "JapanesePage",
     "title": "Japanische Küche",
     "description": "Die japanische Küche ist bekannt für ihre gesunden Gerichte"
   }

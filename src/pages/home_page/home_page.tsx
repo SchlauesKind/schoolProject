@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./home.module.css";
-import flag_data from "../../assets/flag_data.json";
+import flag_data from "../../assets/kitchen_data.json";
 
 function HomePage() {
   return (
@@ -9,14 +9,18 @@ function HomePage() {
       <h2>Entdecken Sie unsere verschiedenen Küchen</h2>
       <div className={styles.gridContainer}>
         {flag_data.map((kitchen) => (
-          <div key={kitchen.id}>
+          <Link
+            key={kitchen.id}
+            to={`/kitchen/${kitchen.path}`}
+            className={styles.gridItem}
+          >
             <img
-              src={`src/assets/flags/${kitchen.filename}`}
+              src={`src/assets/flags/${kitchen["flag-file-name"]}`}
               alt={kitchen.title}
             />
             <h3>{kitchen.title}</h3>
             <p>{kitchen.description}</p>
-          </div>
+          </Link>
         ))}
       </div>
       <ul>
