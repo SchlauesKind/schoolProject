@@ -22,3 +22,19 @@
 .homePageBody .link:hover {
   color: rgb(149, 166, 20);
 }
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.gridContainer div {
+  background-color: #ffffff;
+  height: 100px;
+}
+
+div {
+  border: solid 2px #ffffff;
+}

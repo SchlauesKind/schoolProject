@@ -6,6 +6,13 @@ function HomePage() {
     <div className={styles.homePageBody}>
       <h1 className={styles.homePageHeader}>Willkommen auf unserer Seite</h1>
       <h2>Entdecken Sie unsere verschiedenen Küchen</h2>
+      <div className={styles.gridContainer}>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <ul>
         <li>
           <Link className={styles.link} to="/russian_kitchen">
