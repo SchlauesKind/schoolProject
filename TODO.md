@@ -12,9 +12,9 @@
 ## Shit I may start with, with enough motivation
 
 - Better design for 404
-- Better design for Homepage
-- Possibly other layout..
-- Adding a footer
+- Better design for Homepage "Almost"
+- Possibly other layout for header..
+- Adding a footer "Done"
 
 ## Shit I will deal with in the nearest time
 

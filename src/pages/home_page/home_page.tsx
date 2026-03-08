@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "./main_styles.module.css";
+import styles from "./home.module.css";
 import flag_data from "../../assets/flag_data.json";
 
 function HomePage() {
@@ -21,12 +21,12 @@ function HomePage() {
       </div>
       <ul>
         <li>
-          <Link className={styles.link} to="/russian_kitchen">
+          <Link className="link" to="/russian_kitchen">
             Russische Küche
           </Link>
         </li>
         <li>
-          <Link className={styles.link} to="/german_kitchen">
+          <Link className="link" to="/german_kitchen">
             Deutsche Küche
           </Link>
         </li>

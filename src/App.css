@@ -6,3 +6,15 @@ html {
 body {
   margin: 0;
 }
+
+.link {
+  color: #038482;
+}
+
+.link:visited {
+  color: #1b6d8b;
+}
+
+.link:hover {
+  color: rgb(149, 166, 20);
+}
