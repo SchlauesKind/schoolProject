@@ -7,7 +7,6 @@ import KitchenPage from "./pages/KitchenPage";
 /* Components import */
 import HeaderComponent from "./components/header/header_component";
 import FooterComponent from "./components/footer/footer_component";
-import kitchen_link_data from "./assets/kitchen_data.json";
 
 /* System imports */
 import { Outlet, Routes, Route } from "react-router-dom";
