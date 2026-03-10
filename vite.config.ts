@@ -6,4 +6,5 @@ export default defineConfig({
   plugins: [react()],
   //base: "/schoolProject/",
   base: "./",
+  //base: process.env.NODE_ENV === "production" ? "/schoolProject/" : "./",
 });

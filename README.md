@@ -7,3 +7,4 @@
 
 - change the base in vite.config.ts to "./"
 - change every path of .html in static to href="./russian/style.css"
+- Test run with "npx serve dist"

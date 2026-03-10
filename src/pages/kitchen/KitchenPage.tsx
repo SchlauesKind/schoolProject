@@ -22,7 +22,7 @@ function KitchenPage() {
 
   return (
     <iframe
-      src={`${import.meta.env.BASE_URL}/static/${currentKitchen?.path}/index.html`}
+      src={`${import.meta.env.BASE_URL}static/${currentKitchen?.path}/index.html`}
       title={currentKitchen?.title}
       width="100%"
       height="100%"
