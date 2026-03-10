@@ -1,0 +1,96 @@
+ url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mexico.jpg/960px-Flag_of_Mexico.jpg?_=20100329151107"); 
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background-image:  url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mexico.jpg/960px-Flag_of_Mexico.jpg?_=20100329151107"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15rem;
+    border-bottom: 30px solid white;
+}
+
+img {
+  width: 20px;
+} 
+
+
+.intro {
+    padding: 50px 20px 20px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+.gerichte {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px 20px 60px 20px;
+}
+
+
+.gericht {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gericht:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.vorspeise {
+    background-image: url("https://img.taste.com.au/Y-LMFmPz/taste/2016/11/guacamole-with-crispy-tortilla-chips-23734-1.jpeg");
+}
+
+.hauptgang {
+    background-image: url("https://th.bing.com/th/id/OIP.oVPgwUkCKv588hfiKEn_ywHaE8?w=300&h=200&c=7&r=0&o=7&pid=1.7&rm=3");
+}
+
+.nachtisch {
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.JRVZ7uLYRIe4pWcBNRjcnQHaHa?pid=ImgDet&w=206&h=206&c=7&o=7&rm=3");
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .gerichte {
+        flex-direction: column;
+        align-items: center;
+    }
+}

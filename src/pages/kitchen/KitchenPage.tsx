@@ -11,22 +11,23 @@ function NoKitchenFound() {
 
 function KitchenPage() {
   const { kitchenType } = useParams();
-
   const currentKitchen = kitchen_data.find(
     (kitchen) => kitchen.path === kitchenType,
   );
-
   if (!currentKitchen) {
     return NoKitchenFound();
   }
 
+  // URL будет: /kitchen/russian/index.html
+  const iframeSrc = `kitchen/${kitchenType}/index.html`;
+
   return (
     <iframe
-      src={`${import.meta.env.BASE_URL}static/${currentKitchen?.path}/index.html`}
+      src={iframeSrc}
       title={currentKitchen?.title}
       width="100%"
       height="100%"
-      style={{ border: "none", minHeight: "75vh" }}
+      style={{ border: "none", height: "calc(100vh - 80px)" }}
     />
   );
 }
