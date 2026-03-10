@@ -1,0 +1,23 @@
+body{
+  background: linear-gradient(to right, #006847, #ffffff, #ce1126 );
+  color:black;
+  font-size:1.5em;
+  font-family:Candara;
+}
+h1{
+	color:orange;
+	font-family:Perpetua;
+	font-size: 65pt;
+      
+}
+img
+{
+	float:right;
+	margin-left: 15em;
+}
+h3{
+	font-size:1.5em;
+	font-family:Times New Roman;
+	text-decoration:underline;
+}
+/*consolas*/
