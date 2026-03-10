@@ -27,7 +27,7 @@ function KitchenPage() {
       title={currentKitchen?.title}
       width="100%"
       height="100%"
-      style={{ border: "none", height: "calc(100vh - 80px)" }}
+      style={{ border: "none", height: "200vh" }}
     />
   );
 }

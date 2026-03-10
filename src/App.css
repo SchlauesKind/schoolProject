@@ -2,6 +2,7 @@ html {
   margin: 0;
   background-color: rgb(34, 34, 34);
   scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 body {
