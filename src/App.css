@@ -1,28 +1,20 @@
 html {
   margin: 0;
-  background-color: rgb(139, 139, 139);
+  background-color: rgb(34, 34, 34);
 }
 
 body {
   margin: 0;
 }
 
-main {
-  color: aquamarine;
+.link {
+  color: #038482;
 }
 
-header {
-  color: aqua;
-  margin: 0;
-  padding: 1.5rem;
-  background-color: rgb(65, 65, 65);
+.link:visited {
+  color: #1b6d8b;
 }
 
-h1 {
-  text-align: center;
-}
-
-.flex-container {
-  display: flex;
-  align-items: center;
+.link:hover {
+  color: rgb(149, 166, 20);
 }
