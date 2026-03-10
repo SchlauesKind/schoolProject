@@ -1,10 +1,26 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script>
+      (function() {
+        var path = window.location.pathname;
+        // Если мы на Гитхабе, path будет "/schoolProject/static/russian/..."
+        // Нам нужно выцепить "/schoolProject/"
+        var parts = path.split('/'); 
+        var root = '/' + parts[1] + '/'; // Получит "/schoolProject/"
+    
+        // Если мы локально, parts[1] может быть "static", тогда root будет "/static/" 
+        // — тут нам нужно условие
+        if (parts[1] !== 'static') {
+            var base = document.createElement('base');
+            base.href = root;
+            document.head.appendChild(base);
+        }
+      })();
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/static/russian/style.css" />
-    <base href="./">
+    <link rel="stylesheet" href="./style.css" />
     <title>Test Kitchen</title>
   </head>
   <body>

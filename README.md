@@ -1,10 +1,14 @@
-## to start dev with "npm run dev"
+## to start development
 
-- change the base in vite.config.ts to "/schoolProject/"
-- change every path of .html in static to href="../russian/style.css"
+- do nothing
+- run "npm run dev"
 
 ## to build the project with "npm run build"
 
-- change the base in vite.config.ts to "./"
-- change every path of .html in static to href="./russian/style.css"
-- Test run with "npx serve dist"
+- do nothing
+- run "npm run build"
+- to test with "npx serve dist"
+
+## deployment
+
+- run "npx gh-pages -d dist"
