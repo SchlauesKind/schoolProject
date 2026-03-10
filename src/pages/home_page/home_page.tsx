@@ -11,7 +11,7 @@ function HomePage() {
         {flag_data.map((kitchen) => (
           <Link
             key={kitchen.id}
-            to={`/kitchen/${kitchen.path}`}
+            to={`/kitchen/${kitchen.path}/index.html`}
             className={styles.gridItem}
           >
             <img

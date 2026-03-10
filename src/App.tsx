@@ -38,7 +38,7 @@ function App() {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
         <Route path="kitchen" element={<KitchenLayout />}>
-          <Route path=":kitchenType" element={<KitchenPage />} />
+          <Route path=":kitchenType/index.html" element={<KitchenPage />} />
         </Route>
         <Route path="credits" element={<Credits />} />
         <Route path="*" element={<PageNotFound />} />
