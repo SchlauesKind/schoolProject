@@ -1,3 +1,16 @@
+:root {
+  --header-button-background: #808080;
+  --header-button-background-hover: #acacac;
+  --header-button-border: #8f8f8f;
+  --card-background: #505050;
+  --card-background-hover: #484848;
+  --box-background: #333;
+  --box-border: #808080;
+  --link: #3fbbe5;
+  --link-hover: #3fd4fd;
+  --link-visited: #3f9bc5;
+}
+
 html {
   margin: 0;
   background-color: rgb(34, 34, 34);
@@ -9,14 +22,7 @@ body {
   margin: 0;
 }
 
-.link {
-  color: #038482;
+iframe {
+  background-color: white !important;
 }
 
-.link:visited {
-  color: #1b6d8b;
-}
-
-.link:hover {
-  color: rgb(149, 166, 20);
-}

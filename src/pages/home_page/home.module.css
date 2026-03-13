@@ -9,40 +9,25 @@
   border-bottom: solid 2px aliceblue;
 }
 
-.homePageBody ul {
-  list-style-type: upper-alpha;
-  padding: 50px;
-}
-
-.homePageBody .link {
-  color: #038482;
-  font-size: 1.5em;
-}
-
-.homePageBody .link:hover {
-  color: rgb(149, 166, 20);
-}
-
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
-.gridContainer div {
-  background-color: #606060;
-  min-height: 100px;
-}
-
-.gridItem {
-  background-color: #606060;
+.gridCard {
+  text-decoration: none;
+  background-color: var(--card-background);
+  color: var(--link);
   border-radius: 20px;
   padding: 20px;
   overflow: hidden;
 }
 
-.gridItem:hover {
-  background-color: #505050;
+.gridCard:hover {
+  cursor: pointer;
+  color: var(--link-hover);
+  background-color: var(--card-background-hover);
   transition: 0.1s;
 }

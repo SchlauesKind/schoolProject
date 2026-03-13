@@ -19,6 +19,7 @@ function HeaderComponent() {
         <Link to="/" className={styles.item}>
           <img src={home_icon} alt="Home Icon" className={styles.logo} />
         </Link>
+        <h1 className={styles.wellcome}>Willkommen auf unserer Seite</h1>
         <a
           href="https://www.goethegymnasiumdortmund.de"
           className={styles.item}
