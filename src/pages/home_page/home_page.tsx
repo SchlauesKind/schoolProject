@@ -16,6 +16,7 @@ function HomePage() {
             <img
               src={`${import.meta.env.BASE_URL}flags/${kitchen["flag-file-name"]}`}
               alt={kitchen.title}
+              className={styles.flagImg}
             />
             <h3>{kitchen.title}</h3>
             <p>{kitchen.description}</p>

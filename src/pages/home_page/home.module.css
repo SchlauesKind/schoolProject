@@ -31,3 +31,7 @@
   background-color: var(--card-background-hover);
   transition: 0.1s;
 }
+
+.flagImg {
+  width: 100%;
+}
