@@ -26,3 +26,17 @@ iframe {
   background-color: white !important;
 }
 
+/* Global link styles */
+a {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--link-visited);
+}
+
+a:hover {
+  /*box-shadow: #ffffff 2px 2px 2px 1px inset;*/
+  color: var(--link-hover);
+}

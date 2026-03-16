@@ -5,17 +5,20 @@ function FooterComponent() {
   return (
     <footer className={styles.footer}>
       <p>
-        &copy; {new Date().getFullYear()} Goethe Gymnasium Dortmund. Website
-        developed by Roma Fyodorov and{" "}
-        <Link className="link" to="/credits">
-          contributors
-        </Link>{" "}
-        as a school project.
+        &copy; {new Date().getFullYear()} Roman Fedorov and contributors as a
+        school project for{" "}
+        <a target="_blank" href="https://www.goethegymnasiumdortmund.de/">
+          Goethe Gymnasium Dortmund
+        </a>
+        .
       </p>
       <p>
-        This website is for educational purposes only and does not represent the
-        official views of Goethe Gymnasium Dortmund. All content is provided "as
-        is" without any warranties.
+        This website is for educational purposes only. All content is provided
+        "as is" without any warranties. For more information, please see the{" "}
+        <Link className="link" to="/credits">
+          Credits
+        </Link>{" "}
+        page.
       </p>
     </footer>
   );
