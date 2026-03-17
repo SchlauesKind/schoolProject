@@ -1,6 +1,6 @@
 :root {
-  --card-background: #dfdfdf;
-  --card-shadow: #969696;
+  --card-background: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.25);
 }
 
 .homePageBody {
@@ -14,26 +14,29 @@
   text-align: center;
 }
 
+/* Grid Container */
+
 .gridContainer {
+  align-items: start;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  padding: 10px;
+  gap: 40px;
+  padding: 20px;
   align-items: center;
 }
 
 .gridContainer .gridCard {
+  min-height: 400px;
   text-decoration: none;
   background-color: var(--card-background);
   box-shadow: 0 0 10px 0 var(--card-shadow);
   color: var(--font-color);
-  border-radius: 20px;
-  padding: 20px;
+  border-radius: 3px;
   overflow: hidden;
 }
 
 .gridContainer .gridCard:hover {
-  box-shadow: 0 0 20px 0 var(--card-shadow);
+  box-shadow: 0 0 30px 0 var(--card-shadow);
   transition: 0.1s;
 }
 
@@ -41,7 +44,7 @@
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   color: var(--link);
 }
 
@@ -52,8 +55,10 @@
 }
 
 .gridContainer .flagImg {
-  margin-bottom: 10px;
   width: 100%;
   aspect-ratio: 3/2;
-  border-radius: 10px;
+}
+
+.gridContainer .gridCard .cardText {
+  padding: 0 15px;
 }

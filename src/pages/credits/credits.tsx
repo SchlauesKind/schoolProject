@@ -17,6 +17,7 @@ function Credits() {
         <li>
           Country Flags:{" "}
           <a
+            className="link"
             target="_blank"
             href="https://commons.wikimedia.org/wiki/Main_Page"
           >
@@ -25,7 +26,7 @@ function Credits() {
         </li>
         <li>
           SVG Icons:{" "}
-          <a target="_blank" href="https://www.svgrepo.com">
+          <a className="link" target="_blank" href="https://www.svgrepo.com">
             https://www.svgrepo.com
           </a>
         </li>

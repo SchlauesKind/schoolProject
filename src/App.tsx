@@ -12,19 +12,14 @@ import FooterComponent from "./components/footer/footer_component";
 import { Outlet, Routes, Route } from "react-router-dom";
 import "./App.css";
 
-/* Context import */
-import { HeaderProvider } from "./context/HeaderContext";
-
 function MainLayout() {
   return (
     <div className="layout">
-      <HeaderProvider>
-        <HeaderComponent />
-        <main>
-          <Outlet />
-        </main>
-        <FooterComponent />
-      </HeaderProvider>
+      <HeaderComponent />
+      <main>
+        <Outlet />
+      </main>
+      <FooterComponent />
     </div>
   );
 }

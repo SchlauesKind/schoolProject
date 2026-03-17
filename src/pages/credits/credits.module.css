@@ -1,5 +1,5 @@
 .creditsBody {
-  color: aliceblue;
-  border-top: solid 2px aliceblue;
-  border-bottom: solid 2px aliceblue;
+  color: var(--font-color);
+  border-top: solid 2px #808080;
+  border-bottom: solid 2px #808080;
 }
