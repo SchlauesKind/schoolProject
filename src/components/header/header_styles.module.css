@@ -1,6 +1,7 @@
 :root {
-  font-family: Arial, Helvetica, sans-serif;
-  box-sizing: border-box;
+  --header-button-background: #909090;
+  --header-button-background-hover: #808080;
+  --header-button-border: #8f8f8f;
 }
 
 /* Header styles */
@@ -25,7 +26,7 @@
 /* Items styles */
 .item {
   background-color: var(--header-button-background);
-  border: 1px solid var(--header-button-border);
+  border: 2px solid var(--header-button-border);
   border-radius: 10px;
   padding: 10px;
   height: 50px;
@@ -44,6 +45,6 @@
 }
 
 .wellcome {
-  color: aliceblue;
+  color: var(--font-color);
   margin: auto auto;
 }

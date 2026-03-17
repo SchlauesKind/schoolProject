@@ -1,12 +1,17 @@
+:root {
+  --card-background: #505050;
+  --card-background-hover: #484848;
+}
+
 .homePageBody {
-  color: aliceblue;
+  color: var(--font-color);
+  background-color: var(--body-background);
 }
 
 .homePageHeader {
-  color: aliceblue;
+  color: var(--font-color);
   font-size: 2.5em;
   text-align: center;
-  border-bottom: solid 2px aliceblue;
 }
 
 .gridContainer {
@@ -17,7 +22,7 @@
   align-items: center;
 }
 
-.gridCard {
+.gridContainer .gridCard {
   text-decoration: none;
   background-color: var(--card-background);
   color: var(--link);
@@ -26,14 +31,18 @@
   overflow: hidden;
 }
 
-.gridCard:hover {
-  cursor: pointer;
-  color: var(--link-hover);
-  background-color: var(--card-background-hover);
+.gridContainer .gridCard:hover {
+  box-shadow: 0 0 20px 0 rgb(80, 80, 80);
   transition: 0.1s;
 }
 
-.flagImg {
+.gridContainer .gridCard .link:hover {
+  cursor: pointer;
+  color: var(--link-hover);
+  transition: 0.1s;
+}
+
+.gridContainer .flagImg {
   width: 100%;
   aspect-ratio: 3/2;
 }

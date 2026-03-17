@@ -7,7 +7,7 @@ function FooterComponent() {
       <p>
         &copy; {new Date().getFullYear()} Roman Fedorov and contributors as a
         school project for{" "}
-        <a target="_blank" href="https://www.goethegymnasiumdortmund.de/">
+        <a className="link" target="_blank" href="https://www.goethegymnasiumdortmund.de/">
           Goethe Gymnasium Dortmund
         </a>
         .
