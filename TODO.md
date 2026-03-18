@@ -17,3 +17,4 @@
 
 - Claiming sites of other \*developers. Without useless files and with index.html
 - Binding their .html's to .tsx via .json
+- Ready: mexico, russia, france.

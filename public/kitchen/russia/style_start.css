@@ -1,0 +1,50 @@
+body {
+    font-family: Bahnschrift;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background: linear-gradient(to bottom,
+                       white    0%, white  33.33%,
+                       #0039a6   0%, #0039a6 66.66%,
+                       #d52b1e 0%);#dc143c;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    border-bottom: 10px solid white;
+    border: 1px solid black;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.rezeptkarte {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 370px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    font-size: 20px;
+}
+
+.rezeptkarte:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: grey;
+}
+img {
+    border-radius: 8px;
+}

@@ -1,23 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script>
-      window.addEventListener("load", function () {
-        var height = document.body.scrollHeight;
-        window.parent.postMessage(
-          { type: "iframeHeight", height: height },
-          "*",
-        );
-      });
-    </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Test Kitchen</title>
-  </head>
-  <body>
-    <h1>Test Russian Page</h1>
-    Some text...
-    <a href="page2.html">Second page</a>
-  </body>
+
+<header>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style_start.css">
+    <h1>Willkommen, oder wie man auf Russisch sagt: Добро пожаловать!</h1>
+</header>
+
+<main class="container">
+    <p>Die russische Küche zeichnet sich besonders durch herzhafte und deftige Gerichte aus.
+        Beliebte Speisen sind zum Beispiel diverse Teigtaschen, leckere Suppen und gute Salate.
+        Auch süße Leckereien werden oft als Nachspeise angeboten. Unten finden Sie die Rezepte für eine leckere Sommersuppe, ein herzhaftes Fleischgericht und eine köstliche Nachspeise.</p>
+
+    <a href="okroschka.html">
+    <div class="rezeptkarte">
+        <img src="./bilder/okroschka.jpg" alt="okroschka" width="350" >
+        <p>Okroschka</p>
+    </div>
+    </a>
+
+    <a href="schaschlik.html">
+    <div class="rezeptkarte">
+        <img src="./bilder/schaschlik.jpg" alt="schaschlik" width="350" >
+        <p>Schaschlik</p>
+    </div>
+    </a>
+
+    <a href="oreschki.html">
+    <div class="rezeptkarte">
+        <img src="./bilder/oreschki.jpg" alt="oreschki" width="350" >
+        <p>Oreschki</p>
+    </div>
+    </a>
+</main>
+
+<footer>
+    <p>© 2026 Viktor & Edwin</p>
+</footer>
+
 </html>

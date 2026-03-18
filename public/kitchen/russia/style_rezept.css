@@ -1,0 +1,63 @@
+body {
+    font-family: Bahnschrift;
+    color: black;
+    background: linear-gradient(to bottom,
+                           white 30%, #0039a6BB 38%, #0039a6BB 65%, #d52b1eBB 75%);
+    background-attachment: fixed;
+}
+
+.rezept{
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   flex-wrap: wrap;
+   padding: 1.5rem;
+   gap: 20px;
+}
+
+button {
+     background-color: rgba(255,255,255,0.5);
+     font-family: Bahnschrift;
+     font-size: 16px;
+     border-radius: 8px;
+     padding: 5px 8px;
+     margin-left: 5px;
+     margin-right: 5px;
+     transition: transform 0.3s;
+     border: 1px solid grey;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    border: 1px solid black;
+}
+
+.box {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-width: 800px;
+    padding: 20px;
+    backdrop-filter: blur(10px) brightness(145%) saturate(50%);
+}
+
+.knopfr {
+    display: flex;
+    float: right;
+}
+
+.knopfl {
+    display: flex;
+    float: left;
+}
+
+.zutaten {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 20px;
+}
+
+img {
+    border-radius: 8px;
+}

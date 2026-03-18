@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 200vh;
+    background: linear-gradient(-90deg, #df5050, #ffffff, #6f7fc7);
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    background: linear-gradient(
+        to right,
+        #0055A4 33%,
+        white 33%, 
+        white 66%, 
+        #EF4135 66%
+    );
+    color: black;
+    padding: 20px;
+    margin: 0;
+    border-radius: 0 0 15px 15px;
+}
+img {
+    border-radius: 10px;
+}
+h2 {
+    background-color: #797979;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+h3 {
+    background-color: #797979;
+    color: white;
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+p {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+
+.rezept-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.rezept-card:hover {
+    transform: translateY(-30px);
+}
+
+.button {
+    display: inline-block;
+    background-color: #797979;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+
+.button:hover {
+    background-color: #dark red;
+
+a:hover {
+    background-color: #797979;
+}
