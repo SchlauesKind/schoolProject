@@ -1,0 +1,33 @@
+.plateContainer {
+    background-color: var(--goethe-accent-color);
+    border-radius: 10px;
+    color: var(--font-color);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 60%;
+}
+
+.buttonContainer {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.button {
+    border-radius: 1rem;
+    padding: 5px;
+    color: var(--font-color);
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.buttonContainer .migrateButton {
+    background-color: cornflowerblue;
+}
+
+.buttonContainer .stayButton {
+    background-color: #969696;
+}
