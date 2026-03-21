@@ -4,9 +4,8 @@ import me_icon from "./mini_icon.svg";
 
 function MigratePlate() {
   const myHost = "goethe-kocht-de.vercel.app";
-  const myURL = `https://${myHost}/`;
   const isMyhost = window.location.hostname === myHost;
-
+  const myURL = `https://${myHost}/`;
   if (isMyhost) {
     return null;
   }
