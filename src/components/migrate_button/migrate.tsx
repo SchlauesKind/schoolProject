@@ -42,14 +42,20 @@ function MigratePlate() {
         <div className={styles.banner}>
           <div className={styles.plateContainer}>
             <div>
-              <h1>Diese Seite kann outdated sein</h1>
-              <p>
-                Sie verwenden gerade die Webseite, die in ihrer Entwicklung und
-                Aktualisierung eingefroren ist. <br />
-                <br />
-                Wechseln Sie zu der aktuellsten Seite um den neusten Kochbuch zu
-                erleben. Beim klicken auf "Akzeptieren" werden Sie automatisch
-                zur neuen Seite weitergeleitet.
+              <h1
+                style={{
+                  fontWeight: "700",
+                  fontSize: "30px",
+                  color: "#585858",
+                }}
+              >
+                Diese Seite kann veraltet sein.
+              </h1>
+              <p style={{ fontSize: "18px", fontWeight: "650", color: "#777" }}>
+                Diese Webseite ist statisch und in ihrer Entwicklung
+                eingefroren. Wechseln Sie zu der aktuellsten Seite um den
+                neusten Kochbuch zu erleben. Beim klicken auf "Akzeptieren"
+                werden Sie automatisch zur neuen Seite weitergeleitet.
               </p>
             </div>
             <div className={styles.buttonContainer}>
