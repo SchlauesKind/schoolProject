@@ -36,6 +36,9 @@ function HomePage() {
 
   return (
     <div className={styles.homePageBody}>
+      <p style={{ fontSize: 17, padding: "0px 20px" }}>Wir, der Informatikkurs der 10. Jahrgangsstufe, haben im Rahmen unseren Unterrichts das Thema Webdesing mit HTML und CSS behandelt. Um unser neu erlerntes Wissen praktisch anzuwenden, haben wir uns entschlossen ein eigenes Kochbuch zu erstellen.
+
+Dafür haben wir uns in Kleingruppen aufgeteilt und jede Kleingruppe hat ein landesspezifisches Menü zusammen gestellt. Als Lerngruppe haben wir uns auf ein einheitliches Erscheinungsbild geeinigt (CSS).</p>
       <h2 className={styles.statement}>
         Entdecken Sie unsere verschiedenen Küchen:
       </h2>
