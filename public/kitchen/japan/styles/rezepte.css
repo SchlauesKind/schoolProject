@@ -1,0 +1,37 @@
+body {
+    background-image: url("../rezepte/bilder/Japan.png");
+	background-repeat: no-repeat;
+}
+
+.rezept {
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.rezept ul, .rezept ol{
+    text-align: left;
+    margin-right: 30px; 
+	padding-bottom: 20px;
+}
+
+.rezept ol li {
+  margin-bottom: 15px;
+}
+
+.rezept ol img {
+  margin-top: 15px;
+}
+
+.rezept a.button {
+    display: table; 
+    text-align: left;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}

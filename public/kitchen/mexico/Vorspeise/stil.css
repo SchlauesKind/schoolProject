@@ -1,0 +1,62 @@
+body{
+  background: linear-gradient(to right, #006847, #ffffff, #ce1126 );
+  color:black;
+  font-size:1.5em;
+  font-family:Candara;
+}
+h1{
+	color:orange;
+	font-family:Perpetua;
+	font-size: 65pt;
+      
+}
+img
+{
+	float:right;
+	margin-left: 15em;
+}
+h3{
+	font-size:1.5em;
+	font-family:Times New Roman;
+	text-decoration:underline;
+}
+.zurueck {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px 16px;
+
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    color: white;
+    text-decoration: none;
+
+    font-size: 14px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(221, 36, 118, 0.3);
+
+    transition: all 0.25s ease;
+}
+
+.zurueck {
+    content: "←";
+    font-size: 16px;
+    transition: transform 0.25s ease;
+}
+
+.zurueck:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(255, 81, 47, 0.4);
+}
+
+.zurueck:hover::before {
+    transform: translateX(-3px);
+}
+
+.zurueck:active {
+    transform: scale(0.96);
+}
+/*consolas*/

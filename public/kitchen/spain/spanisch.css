@@ -1,0 +1,80 @@
+ main {
+     max-width: 800px;
+     margin: 40px auto;
+     background-color: white;
+     padding: 25px;
+     border-radius: 10
+ }
+
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-color: white;
+     margin: 0;
+     padding: 0;
+     color: black;
+ }
+
+ header {
+     background: linear-gradient(to bottom,
+             #c60b1e 0%,
+             #c60b1e 25%,
+             #ffc400 25%,
+             #ffc400 75%,
+             #c60b1e 75%,
+             #c60b1e 100%);
+     color: black;
+     padding: 2rem;
+     text-align: center;
+ }
+
+ main {
+     text-align: center;
+ }
+
+
+ .container {
+     display: grid;
+     gap: 5px;
+     grid-template-columns: repeat(3, 1fr);
+     justify-content: center;
+     flex-wrap: nowrap;
+     gap: 20px;
+     padding: 40px 20px;
+ }
+
+ .rezept-card {
+     background-color: white;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     width: 300px;
+     padding: 20px;
+     text-align: center;
+     transition: transform 0.3s;
+ }
+
+ .rezept-card:hover {
+     transform: scale(1.05);
+ }
+
+
+ .button {
+     display: inline-block;
+     background-color: #dc143c;
+     color: white;
+     padding: 10px 20px;
+     text-decoration: none;
+     border-radius: 4px;
+     margin-top: 15px;
+
+ }
+
+ .button:hover {
+     background-color: darkred;
+ }
+
+ footer {
+     text-align: center;
+     padding: 20px;
+     font-size: 0.9rem;
+     color: grey;
+ }

@@ -1,0 +1,62 @@
+p { text-align: center; font-size: 18 }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header {
+    background-color: #dc143c;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 5px solid white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+
+.rezept-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.rezept-card:hover {
+    transform: translateY(-5px);
+}
+
+.button {
+    display: inline-block;
+    background-color: #dc143c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #dark red;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: grey;
+}

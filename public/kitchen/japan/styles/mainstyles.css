@@ -1,0 +1,110 @@
+body {
+	background-size: 1200px;
+	background-position: center;
+	font-family: 'Ink Free', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+	
+h1 {
+}
+
+header {
+    /*background-image: url("../rezepte/bilder/Japan-Flagge.png");*/
+    background-image: url("../rezepte/bilder/Japan.png");
+	background-size: 1000px;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 250px;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+
+.rezept-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.rezept-card:hover {
+    transform: translateY(-5px);
+}
+
+.rezept-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.rezept {
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.rezept ul, .rezept ol{
+    text-align: left;
+    margin-right: 30px; 
+	padding-bottom: 20px;
+}
+
+.rezept ol li {
+  margin-bottom: 15px;
+}
+
+.rezept a.button {
+    display: table; 
+    text-align: left;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.button {
+    text-align: left;
+	display: inline-block;
+    background-color: #dc143c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #dark red;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.3rem;
+    color: grey;
+	font-family: Arial
+}	
