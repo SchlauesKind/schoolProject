@@ -1,86 +1,94 @@
-
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #b81414;
-    text-align:center ;
-}
-    
-h2  {
-    color:black; text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #b81414;
+  text-align: center;
 }
 
+h2 {
+  color: black;
+  text-align: center;
+}
 
 header {
-
-    height:150px;
-    background-image: url("./moroccan-flag-medium.png");
-    background-size: cover;
-    background-position: center;
-    color:white ; 
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    text-align: center;
-    border-bottom: 5px solid white;
+  height: 150px;
+  background-image: url("./moroccan-flag-medium.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 5px solid white;
 }
 
-
 .container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 40px 20px;
-    width: auto;
-    margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 20px;
 }
 
 .rezept-opening-card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 90%;
-    padding: 1px;
-    text-align: center ;
-    transition: transform 0.3s;
-    align-self: auto;
-    margin: auto;
-    margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+  align-self: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .rezept-card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 400px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s;
-    margin: auto;
+  text-align: center;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+  transition: 0.2s ease;
+  height: fit-content;
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+
+.rezept-card img {
+  width: 100%;
+  border-radius: 8px;
 }
 
 .rezept-card:hover {
-    transform: translateY(-5px) scale(1.03);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+  box-shadow: 0 0 35px 0 rgba(255, 255, 255, 0.5);
 }
 
-.button {
-    display: inline-block;
-    background: linear-gradient(45deg, #009246, #ce2b37); 
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 25px;
-    margin-top: 15px;
+button {
+  transition: transform 0.3s;
+  display: inline-block;
+  background: linear-gradient(45deg, #009246, #ce2b37);
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 15px;
+  border: none;
 }
 
-.button:hover {
-    transform: translateY(-5px) ;
+a {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    font-size: 0.9rem;
-    color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: white;
 }
